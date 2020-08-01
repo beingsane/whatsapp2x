@@ -1,4 +1,4 @@
-.x1, .x2 {
+.button {
   color: rgb(149, 149, 149);
   font-size: 1rem;
   font-weight: bold;
@@ -8,11 +8,11 @@
   border: none;
 }
 
-.x1:hover, .x2:hover {
+.button:hover {
   color: #00af9c;
 }
 
- .x1:focus, .x2:focus {
+ .button:focus {
   color: #007367;
 }
 
