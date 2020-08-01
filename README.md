@@ -14,4 +14,4 @@ Acelere a velocidade dos seus áudios no whatsapp. Agora áudios de 5 minutos po
 ## Observação
 
 Pode ser (ou com toda certeza) que não funcione da primeira vez, pois a classe do "header" do seu WhatsApp Web esteja diferente. Basta inspencionar.
-[Imagem](image/prin.png)
+![Imagem](/image/prin.png)
