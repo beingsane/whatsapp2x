@@ -1,23 +1,18 @@
-.increaseSpeed {
+.x1, .x2 {
   color: rgb(149, 149, 149);
   font-size: 1rem;
   font-weight: bold;
   background-color: transparent;
+  position: relative;
+  padding: 8px;
   border: none;
 }
 
-.increaseSpeed:hover {
-  color: #4a4a4a;
+.x1:hover, .x2:hover {
+  color: #00af9c;
 }
 
-.increaseSpeed:focus {
-  color: #d31c1c;
+ .x1:focus, .x2:focus {
+  color: #007367;
 }
 
-.oneTime {
-  color: rgb(149, 149, 149);
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: transparent;
-  border: none;
-}
