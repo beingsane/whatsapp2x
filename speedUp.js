@@ -4,21 +4,36 @@ const interval = setInterval(() => {
   if(header) {
     clearInterval(interval);
     
-    const button = document.createElement("button");
+    const button = document.createElement("button"); // Velocidade 2x ou mais
+    const button2 = document.createElement("button"); // Velocidade normal
+
     button.innerHTML = "2.5x";
-    button.classList.add("twoTimesButton");
+    button2.innerHTML = "1x"
+
+    button.classList.add("increaseSpeed");
+    button2.classList.add("oneTime");
+    
     header.appendChild(button)
+    header.appendChild(button2)
     
-    //const teste = document.querySelector(".twoTimesButton");
-    
+    // Velocidade 2.5x
     button.addEventListener("click", () => {
       const audios = document.querySelectorAll("audio")
-      
       audios.forEach(audio => {
-        console.log(audios)
+        console.log(audio)
         audio.playbackRate = 2.5
       });
     })
+
+    button2.addEventListener("click", () => {
+      const audios = document.querySelectorAll("audio")
+      audios.forEach(audio => {
+        console.log(audios)
+        audio.playbackRate = 1.0
+      });
+    })
+
     header.appendChild(button);
+    header.appendChild(button2);
   }
 }, 1000)

@@ -1,4 +1,4 @@
-.twoTimesButton {
+.increaseSpeed {
   color: rgb(149, 149, 149);
   font-size: 1rem;
   font-weight: bold;
@@ -6,10 +6,18 @@
   border: none;
 }
 
-.twoTimesButton:hover {
+.increaseSpeed:hover {
   color: #4a4a4a;
 }
 
-.twoTimesButton:focus {
+.increaseSpeed:focus {
   color: #d31c1c;
+}
+
+.oneTime {
+  color: rgb(149, 149, 149);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
 }
