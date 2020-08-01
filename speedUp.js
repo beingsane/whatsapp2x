@@ -1,9 +1,9 @@
 const interval = setInterval(() => {
   const header = document.querySelector('._3All_');
-  
+
   if(header) {
     clearInterval(interval);
-    
+
     const button2 = document.createElement("button"); // Velocidade normal
     const button = document.createElement("button"); // Velocidade 2x ou mais
 
@@ -12,10 +12,10 @@ const interval = setInterval(() => {
 
     button2.classList.add("x1");
     button.classList.add("x2");
-    
+
     header.appendChild(button2)
     header.appendChild(button)
-    
+
     // Velocidade 2.5x
     button.addEventListener("click", () => {
       const audios = document.querySelectorAll("audio")
