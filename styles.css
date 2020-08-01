@@ -1,0 +1,15 @@
+.twoTimesButton {
+  color: rgb(149, 149, 149);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.twoTimesButton:hover {
+  color: #4a4a4a;
+}
+
+.twoTimesButton:focus {
+  color: #d31c1c;
+}
